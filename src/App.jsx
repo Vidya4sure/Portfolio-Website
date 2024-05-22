@@ -16,7 +16,7 @@ function App() {
         <div className="mt-2 flex justify-between">
           <div className="pt-4 ml-1">
             <h1 className="text-2xl font-semibold">Vidya Sagar Hansda</h1>
-            <h2 className="text-xl">MERN stack developer</h2>
+            <h2 className="text-xl py-2">Aspiring <span className="bg-green-700 px-2 text-white rounded text-center">MERN</span> stack developer</h2>
           </div>
           <div className="w-32 mr-1">
             <img src={VidyaProfileImg} alt="Vidya profile pic" />
