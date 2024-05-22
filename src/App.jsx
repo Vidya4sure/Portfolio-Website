@@ -1,6 +1,7 @@
 import  VidyaProfileImg  from "./assets/vidya profile img.png"
 import Skills from "./Skills";
 import Socials from "./Socials";
+import Box from "./Box";
 import "./App.css";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <div className="md:w-1/3 m-auto">
-        <div className="mt-2 rounded bg-sky-500 hover:bg-sky-600 hover:text-white cursor-pointer">
+        <div className="mt-2 w-96 sm:w-3/4 md:w-full m-auto rounded bg-sky-500 hover:bg-sky-600 hover:text-white cursor-pointer">
           <h1 className="text-2xl py-5 px-5  text-center">Hello I'm Vidya Sagar</h1>
         </div>
 
@@ -29,7 +30,7 @@ function App() {
 
         <div>
           <h1 className="text-2xl mt-2 underline decoration-solid">Skills</h1>
-          <div className="flex">
+          <div className="flex flex-wrap p-1">
             <Skills skills={"Javascript"}></Skills>
             <Skills skills={"Tailwindcss"}></Skills>
             <Skills skills={"React.js"}></Skills>
@@ -39,8 +40,8 @@ function App() {
           </div>
         </div>
 
-        <div>
-          <a href="#" className="bg-slate-700 inline-block text-white text-2xl px-10 py-3 rounded my-3">Projects </a>
+        <div className="ml-2 sm:ml-2 md:ml-2 lg:ml-0">
+          <Box  inputs="Projects"></Box>
         </div>
 
         <div>
@@ -50,8 +51,8 @@ function App() {
           <Socials links={"https://x.com/vidya4sure"} socials={"X"}></Socials>
         </div>
 
-        <div>
-          <a href="#" className="bg-slate-700 inline-block text-white text-2xl px-10 py-3 rounded my-3">Resume</a>
+        <div className="ml-2 sm:ml-2 md:ml-2 lg:ml-0">
+          <Box inputs="Resume"></Box>
         </div>
       </div>
     </>
