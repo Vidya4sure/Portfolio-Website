@@ -25,7 +25,7 @@ function App() {
 
         <div>
           <h1 className="text-2xl mt-2 underline decoration-solid">About</h1>
-          <p className="pt-2 text-lg">Hello! 👋 I am Vidya Sagar a 2nd year undergrad at Marwari College Ranchi , Ranchi Jharkhand. I enjoy making a simple yet beautiful webpages. I also love designing.When I’m not coding , you’ll find me creating UI designs.</p>
+          <p className="pt-2 text-lg">Hello! 👋 I am <span className="underline">Vidya Sagar</span> a 2nd year undergrad at Marwari College Ranchi , Ranchi Jharkhand. I enjoy making a simple yet beautiful webpages. I also love designing.When I’m not coding , you’ll find me creating UI designs.</p>
         </div>
 
         <div>
@@ -40,8 +40,9 @@ function App() {
           </div>
         </div>
 
-        <div className="ml-2 sm:ml-2 md:ml-2 lg:ml-0">
+        <div className="flex gap-2 justify-center ml-2 sm:ml-2 md:ml-2 lg:ml-0">
           <Box  inputs="Projects"></Box>
+          <Box inputs="Resume"></Box>
         </div>
 
         <div>
@@ -50,9 +51,8 @@ function App() {
           <Socials links={"https://www.linkedin.com/in/vidya4sure/"} socials={"LinkedIn"}></Socials>
           <Socials links={"https://x.com/vidya4sure"} socials={"X"}></Socials>
         </div>
-
-        <div className="ml-2 sm:ml-2 md:ml-2 lg:ml-0">
-          <Box inputs="Resume"></Box>
+        <div className="flex justify-center mt-64 text-gray-500">
+          <h3>© 2024 vidya4sure. All Rights Reserved.</h3>
         </div>
       </div>
     </>
