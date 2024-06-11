@@ -1,5 +1,3 @@
-import skip from "../assets/skip-track.png"
-
 function Box({inputs}){
     return (
         <div>
